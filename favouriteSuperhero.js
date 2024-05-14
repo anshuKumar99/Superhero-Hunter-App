@@ -56,7 +56,7 @@ function loadFavorites() {
       const favoriteSuperheroCard = document.createElement("div");
       favoriteSuperheroCard.classList.add("favorite-superhero-card");
       favoriteSuperheroCard.innerHTML = `
-              <img src="${superhero.thumbnail.path}/portrait_xlarge.${superhero.thumbnail.extension}" alt="${superhero.name}">
+              <img src="${superhero.thumbnail.path}/portrait_uncanny.${superhero.thumbnail.extension}" alt="${superhero.name}">
               <h2 class="favouriteHeroName">${superhero.name}</h2>
               <button onclick="setSuperheroID(${superhero.id})">Show Details</button>
               <button onclick="removeFromFavorites(${superhero.id})">Remove from Favorites</button>
@@ -91,7 +91,7 @@ window.onload = function () {
   loadFavorites();
 };
 
-// Reload page after 1500ms to get latest data
+// Reload page after 2000ms to get latest data
 setTimeout(function () {
   loadFavorites();
-}, 1500);
+}, 2000);
