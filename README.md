@@ -1,7 +1,7 @@
 # Superhero-Hunter-App
 Developed a website for hunting superheroes using HTML, CSS, and JS. Integrated with the [Marvel API]( https://developer.marvel.com/docs ).
         
-## Objective
+# Objective
 Made this for practicing vanilla JS concepts.
 
 # Take a look
