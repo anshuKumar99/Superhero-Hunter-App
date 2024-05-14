@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon of superhero website -->
+    <link rel="icon" type="image/x-icon" href="./assets/iron-man.svg">
+    
+    <!-- Title of superhero website -->
+    <title>Superhero Hunter</title>
+
+    <!-- Link to external css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Script for crypto -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="home">
+        <!-- Link to index.html/home page -->
+        <a href='index.html'>Home</a>
+      </div>
+
+      <!-- Link to favouriteSuperhero.html/Favourite Heroes page -->
+      <div class="favourite"><a href='favouriteSuperhero.html'>Favourite Heroes</a></div>
+
+      <!-- Website heading -->
+      <h1>Superhero Hunter</h1>
+
+      <!-- Superhero search input field -->
+      <input type="text" id="searchInput" placeholder="Search superheroes..." />
+
+    </header>
+
+    <!-- Container to display list of superheroes -->
+    <div id="superheroesList" class="superheroes-list"></div>
+
+    <!-- Link to JavaScript file(script.js) for index.html -->
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
