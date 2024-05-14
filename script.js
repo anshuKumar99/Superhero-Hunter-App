@@ -10,7 +10,7 @@ const hash = CryptoJS.MD5(ts + privateKey + publicKey).toString();
 
 // Function to fetch superheroes from the Marvel API
 function getSuperheroes(search = "a") {
-  const url = `http://gateway.marvel.com/v1/public/characters?nameStartsWith=${search}&ts=${ts}&apikey=${publicKey}&hash=${hash}`;
+  const url = `https://gateway.marvel.com/v1/public/characters?nameStartsWith=${search}&ts=${ts}&apikey=${publicKey}&hash=${hash}`;
 
   fetch(url)
     .then((response) => response.json())
